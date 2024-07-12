@@ -8,7 +8,9 @@ Function Name: flashLoan
 Block Explorer Link: https://etherscan.io/address/0x398ec7346dcd622edc5ae82352f02be94c62d119#code
 
 Function Code:
+
 function flashLoan(
+
     address receiverAddress,
     address[] calldata assets,
     uint256[] calldata amounts,
@@ -17,6 +19,7 @@ function flashLoan(
     bytes calldata params,
     uint16 referralCode
 ) external nonReentrant {
+
     // Implementation here
     // ...
     address payable receiverPayable = payable(receiverAddress);
