@@ -1,10 +1,15 @@
-Introduction
+Introduction:
+
 Protocol Name: Aave
+
 Category: DeFi
+
 Smart Contract: LendingPool
 
 Function Analysis
+
 Function Name: flashLoan
+
 Block Explorer Link: https://etherscan.io/address/0x398ec7346dcd622edc5ae82352f02be94c62d119#code
 
 Function Code:
